@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rummy TDS & Points Calculator</title>
+    <style>
+      body { font-family: system-ui, -apple-system, sans-serif; width: 320px; margin: 0; padding: 14px; background: #0f172a; color: #f8fafc; }
+      h1 { font-size: 15px; margin: 0 0 10px; color: #34d399; }
+      label { display: block; font-size: 12px; color: #cbd5e1; margin: 8px 0 4px; }
+      input { width: 100%; box-sizing: border-box; padding: 7px 9px; border-radius: 6px; border: 1px solid #334155; background: #1e293b; color: #fff; font-size: 13px; }
+      .res { margin-top: 12px; padding: 10px; border-radius: 8px; background: #1e293b; border: 1px solid #10b981; font-size: 12.5px; line-height: 1.6; }
+      .res strong { color: #fbbf24; }
+      .links { margin-top: 12px; display: flex; justify-content: space-between; font-size: 11.5px; }
+      a { color: #38bdf8; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <h1>Section 194BA Rummy TDS Calculator</h1>
+    <label for="wd">Total Withdrawals (₹)</label>
+    <input id="wd" type="number" min="0" value="15000" />
+    <label for="dep">Total Deposits (₹)</label>
+    <input id="dep" type="number" min="0" value="5000" />
+    <label for="cb">Closing Wallet Balance (₹)</label>
+    <input id="cb" type="number" min="0" value="0" />
+    <div id="out" class="res"></div>
+    <div class="links">
+      <a href="https://www.rummy-game.com/tools/rummy-tds-calculator/" target="_blank" rel="noopener">Full Web Calculator ↗</a>
+      <a href="https://www.rummy-game.com/tools/rummy-points-calculator/" target="_blank" rel="noopener">Points Calc ↗</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

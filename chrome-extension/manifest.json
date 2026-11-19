@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Indian Rummy TDS & Points Calculator",
+  "version": "1.0.0",
+  "description": "Instant Section 194BA 30% Net Winnings TDS & 13-Card Indian Rummy deadwood/drop points calculator.",
+  "homepage_url": "https://www.rummy-game.com/tools/rummy-tds-calculator/",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Rummy TDS & Points Calculator",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
